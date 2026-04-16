@@ -10,7 +10,7 @@ def generate_launch_description():
         PythonLaunchDescriptionSource(
             os.path.join(
                 os.path.expanduser('~'),
-                'ros2_ws/src/ascam_ros2_ws/src/ascamera/launch/hp60c.launch.py'
+                '/home/ros2/cam_ws/src/ascamera/launch/hp60c.launch.py'
             )
         )
     )

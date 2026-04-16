@@ -24,6 +24,8 @@ setup(
         'console_scripts': [
             'camera_node = hp60c_basic.camera_node:main',
             'fingertip_3d = hp60c_basic.fingertip_3d:main',
+            'fingertip_pose = hp60c_basic.fingertip_pose:main',
+            'fingertip_yolo = hp60c_basic.fingertip_yolo:main',
         ],
     },
 )
